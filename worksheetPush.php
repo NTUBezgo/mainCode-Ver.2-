@@ -16,7 +16,7 @@
 	$result = array();
 	
 	while($row = mysqli_fetch_array($res)){
-		array_push($result,array('No'=>$row[0],'Name'=>$row[1]));
+		array_push($result,array('No'=>$row[0]));
 	}
 	
 	echo json_encode(array("result"=>$result),JSON_UNESCAPED_UNICODE);
