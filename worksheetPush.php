@@ -1,6 +1,7 @@
-<?php
+﻿<?php
 
 	//建立連線
+	//test
 	$con=mysqli_connect("localhost","ezgo","ezgo","ezgo")or die("Error " . mysqli_error($con));
 	//設定字碼集
 	mysqli_query($con,"set names utf8"); 
