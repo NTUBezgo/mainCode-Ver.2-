@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_worksheet"
+        android:icon="@drawable/worksheet"
+        android:title="學習單"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_area"
+        android:icon="@drawable/area"
+        android:title="館區"
+        app:showAsAction="always"/>
+
+    <!--
+    <item
+        android:title="其他"
+        android:id="@+id/others"
+        android:icon="@drawable/ic_view_list_white_36dp"
+        app:showAsAction="always">
+
+
+        <menu>
+            <item
+                android:id="@+id/action_food"
+                android:title="@string/action_food"
+                android:icon="@drawable/cutlery"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_drink"
+                android:title="@string/action_drink"
+                android:icon="@drawable/can"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_gift"
+                android:orderInCategory="100"
+                android:title="@string/action_gift"
+                android:icon="@drawable/gift"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_toilet"
+                android:orderInCategory="100"
+                android:title="@string/action_toilet"
+                android:icon="@drawable/wc"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_hall"
+                android:orderInCategory="100"
+                android:title="@string/action_hall"
+                android:icon="@drawable/house"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+-->
+</menu>

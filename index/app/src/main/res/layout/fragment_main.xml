@@ -1,0 +1,38 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainMap"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/btn_ar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ar_button_size"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/button_arstart"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:clickable="true"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="@dimen/ar_button_size"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_ezgo"/>
+
+        <TextView
+            android:id="@+id/text_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/whiteColor"
+            android:text="開始導航"/>
+    </LinearLayout>
+
+</fragment>

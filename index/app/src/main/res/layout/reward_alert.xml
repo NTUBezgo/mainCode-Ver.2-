@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alertBackground">
+
+    <TextView
+        android:id="@+id/id_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="點下[立即兌換]視同已兌換,
+請確定人已經在服務台"
+        android:textColor="@color/alertTextt"
+        android:lineSpacingExtra="18dp"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_wait"
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:text="稍後"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_arstart"/>
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_go"
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:text="立即兌換"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_arstart"/>
+
+    </LinearLayout>
+
+</LinearLayout>

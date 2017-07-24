@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="layout_padding">15dp</dimen>
+
+    <dimen name="ar_button_size">70dp</dimen>
+    <dimen name="button_size">45dp</dimen>
+    <dimen name="image_margin">15dp</dimen>
+
+    <dimen name="milestoneTextSize">18dp</dimen>
+    <dimen name="cardHeight">100dp</dimen>
+    <dimen name="cardMargin">10dp</dimen>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardtextSize">30dp</dimen>
+    <dimen name="cardtextsmallSize">16dp</dimen>
+    <dimen name="imageLeftMargin">5dp</dimen>
+    <dimen name="imageRightMargin">15dp</dimen>
+
+    <!--NavigationView icon size-->
+    <dimen name="design_navigation_icon_size" tools:override="true">25dp</dimen>
+</resources>

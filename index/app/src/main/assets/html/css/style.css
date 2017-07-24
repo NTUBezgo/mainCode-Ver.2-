@@ -1,0 +1,14 @@
+# Empty CSS file for your own CSS
+div container-fluid{
+    margin-left: 10pd;
+}
+
+div.col-md-12 name{
+	background:#32CD32;
+	color:#FFFFFF;
+}
+
+span.name{
+	background:#32CD32;
+	color:#FFFFFF;
+}
