@@ -1,0 +1,13 @@
+ul.nav{
+  display:inline-block;
+}
+#tableColumnTitle{
+  font-size:16pt;
+  
+}
+#tableRowTitle{
+	font-size:16pt;
+}
+#tableContent{
+	font-size:16pt;
+}
